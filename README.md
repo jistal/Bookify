@@ -47,10 +47,10 @@ CREATE TABLE slots (
 ## ⚙️ How to Run: 
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/xhibril/Bookify.git
-   cd Bookify
-   ```
+ ```bash
+git clone https://github.com/xhibril/Bookify.git
+cd Bookify
+ ```
   
 2. **Set up environment variables**
 ```bash
