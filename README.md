@@ -19,6 +19,8 @@ Supports **sign up, log in, viewing categories, and booking available slots** th
 
 ## Database Schema:
 ```bash
+CREATE DATABASE booking_system;
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
@@ -48,13 +50,17 @@ CREATE TABLE slots (
    ```bash
    git clone https://github.com/xhibril/Bookify.git
    cd Bookify
-
+   ```
+  
 2. **Set up environment variables**
+   ```bash
 DB_URL=jdbc:mysql://127.0.0.1:3306/booking_system
 DB_USER=root
 DB_PASSWORD=your_password
+```
 
-3. **Run the application with Gradle**
+4. **Run the application with Gradle**
+```bash
 gradlew run
 ```
 
