@@ -40,7 +40,7 @@ CREATE TABLE slots (
     UNIQUE (category_id, slot),
     FOREIGN KEY (category_id) REFERENCES categories(id)
 );
-
+```
 
 ## ⚙️ How to Run: 
 
