@@ -24,8 +24,9 @@ application {
 }
 
 tasks.named('run') {
-    environment 'DB_URL', 'jdbc:mysql://127.0.0.1:3306/booking_system'
-    environment 'DB_USER', 'root'
-    environment 'DB_PASSWORD', 'password'
+    environment 'DB_URL', System.getenv('DB_URL') ?: 'jdbc:mysql://127.0.0.1:3306/booking_system'
+    environment 'DB_USER', System.getenv('DB_USER') ?: 'root'
+    environment 'DB_PASSWORD', System.getenv('DB_PASSWORD') ?: ''
 }
+
 
