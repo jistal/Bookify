@@ -53,7 +53,7 @@ CREATE TABLE slots (
    ```
   
 2. **Set up environment variables**
-   ```bash
+```bash
 DB_URL=jdbc:mysql://127.0.0.1:3306/booking_system
 DB_USER=root
 DB_PASSWORD=your_password
